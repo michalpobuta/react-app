@@ -1,0 +1,132 @@
+.filmModal, .userModal {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+  }
+  .filmList {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .filmList h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .filmList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .filmList li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filmList li:last-child {
+    border-bottom: none;
+  }
+  
+  .filmList li:hover {
+    background-color: #eaeaea;
+  }
+  .rateFilmModal {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 300px; /* Możesz dostosować szerokość */
+  }
+  
+  .rateFilmModal h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .rateFilmModal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rateFilmModal input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .rateFilmModal button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rateFilmModal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rateFilmModal button:last-child {
+    margin-top: 10px;
+    background-color: #6c757d;
+  }
+  
+  .rateFilmModal button:last-child:hover {
+    background-color: #5a6268;
+  }
+  .recommendationsList {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .recommendationsList h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .recommendationsList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommendationsList li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: default;
+  }
+  
+  .recommendationsList li:last-child {
+    border-bottom: none;
+  }
+  
+  .recommendationsList li:hover {
+    background-color: #eaeaea;
+  }
+  
+  
